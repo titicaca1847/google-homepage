@@ -3,36 +3,53 @@ body{
     margin:0;
 }
 
-h1{ 
-    font-size: 100px;
-    text-align: center; 
-    margin-top: 150px;
-
+img{
+    width: 272px;
+    height: 92px;
+    position: absolute; 
+    alt: "Google Logo";
+    top:36%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .header{
     margin:0;
-    position: absolute; 
-    right:3%;
-    top: 3%;
-    word-spacing: 10px;
+    float:right;
+    padding: 25px;
+      }
+
+.header a{
+    padding: 8px 12px;
+}
+
+a{
     text-decoration: none;
+    color: rgb(41, 39, 39);
+    font-size: 13px;
    }
 
+a:hover{
+    text-decoration: underline;
+}
+
+.signIn{
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+}
 
 .box{
-    width: 300px;    
+    width: 450px;    
     height: 40px;
-    border: 2px lightgrey solid; 
-    border-radius: 20px;
-    font-size: 20px;
+    border-radius: 40px;
+    border: 1px lightgrey solid;
+    font-size: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);   
-
-}
-
+    transform: translate(-50%, -50%); 
+    }
 
 
 .button{
@@ -43,56 +60,37 @@ h1{
     left:50%;
     top: 60%;
     transform: translate(-50%, -60%);
+    
 }
 
-button{
-    border: 0;
-    min-width: 100px;
+.button a{
     font-size: 15px;
-    height: 35px;
-    background-color: lightgrey;
-   
+    background-color:#f3f3f3;
+    padding: 14px 16px;
 }
 
-
-
-
-.blue{
-    color:blue;
+.button a:hover{
+    text-decoration:none;
+    border: 1px solid grey;
 }
 
-.red{
-    color:red;
-}
-
-.orange{
-    color: orange;
-}
-
-.green{
-    color: green;
-}
 
 footer{
-    background-color: lightgrey;
+    background-color: #f3f3f3;
     position: absolute;
-    word-spacing: 10px;
     bottom:0;
     width: 100%;
-    margin:0;
-    height: 1.5em;
-    padding: 0;
+    overflow: hidden;
 }
 
-.left{
-      
-    left: 2%;
-    
-   
+footer a{
+    padding: 14px 16px;
+}
+
+.left{      
+    float: left;
 }
 
 .right{
-    
-    float: right;
-    
+   float: right;
 }
